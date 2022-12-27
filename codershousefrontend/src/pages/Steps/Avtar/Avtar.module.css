@@ -1,0 +1,57 @@
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:6rem;
+}
+.buttonWrapper{
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.actionButtonwrap{
+    margin-top:40px;
+}
+
+.buttoomPara{
+    color:#c4c5c5;
+    width:70%;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.subheading{
+    color:"#c4c5c5";
+    text-align:center;
+    margin-bottom: 20px;
+    
+}
+
+.avtarWrapper{
+    width:100px;
+    height:100px;
+    margin:auto;
+    border:6px solid cyan;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.avtarInput{
+    display: none;
+}
+
+.avtarLabel{
+    color: #0077ff;
+    margin:30px 0;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.image{
+    width:120px;
+    object-fit:cover;
+    
+}

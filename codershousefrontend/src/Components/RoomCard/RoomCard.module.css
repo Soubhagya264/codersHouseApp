@@ -1,0 +1,68 @@
+.card{
+    background:#222222;
+    padding :20px;
+    border-radius:10px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.speakers{
+    display:flex;
+    align-items:center;
+    position:relative;
+    margin:20px 0;
+}
+
+.avatars img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid yellow;
+    position:absolute;
+    top:0;
+    left:0;
+    background:#1d1d1d;
+}
+
+.avatars img:last-child{
+    top:20px;
+    left:20px;
+    border:2px solid rgb(255, 100, 211);
+}
+
+.name{
+    margin-left:100px;
+}
+
+.name span{
+    padding-bottom: 5px;
+    display:inline-block;
+    
+}
+.peopleCount{
+    display:flex;
+    float: right;
+}
+
+.peopleCount span{
+    font-size: 18px;
+    font-weight:bold;
+    margin-right:5px ;
+}
+
+.singleSpeaker .avatars img {
+     position: initial;
+}
+
+.singleSpeaker .names{
+    margin-left: 20px;
+}

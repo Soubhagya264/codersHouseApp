@@ -1,0 +1,14 @@
+const ACTIONS={
+    JOIN:"join",
+    LEAVE:"leave",
+    ADD_PEER:"add-peer",
+    RELAY_ICE:"relay-ice",
+    RELAY_SDP:"relay-sdp",
+    ICE_CANDIDATE:"ice-candidate",
+    SESSION_DESCRIPTION:"session-descriptions",
+    REMOVE_PEER:"remove-peer",
+    "MUTE":'mute',
+    "UN_MUTE":'unmute',
+    MUTE_INFO: 'mute-info',
+}
+module.exports=ACTIONS;

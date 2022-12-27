@@ -1,0 +1,33 @@
+.navbar{
+    padding: 20px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.logoutbtn{
+    
+    font-size: -1px;
+    border-radius: 50px;
+    padding: 8px ;
+    cursor:pointer;
+    box-shadow: 0px 1px 1px 1px rgba(95, 3, 3, 0.974);
+    margin-left: 5px;
+    background-color:red;
+    font-weight:bold;
+}
+
+.logoutImage{
+    font-size: 20px;
+}
+.navRight{
+    display: flex;
+    align-items:center;
+    
+
+}
+.avtar{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid aqua;
+    margin: 0 20px;
+}

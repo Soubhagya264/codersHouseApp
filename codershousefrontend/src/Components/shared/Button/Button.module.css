@@ -1,0 +1,21 @@
+.button{
+    
+    padding: 10px 20px ;
+    border-radius :20px;
+    border:none;
+    outline:none !important;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+    transition: all 0.3s ease
+
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 112, 227);
+}
+.arrow{
+    margin-left:10px ;
+}

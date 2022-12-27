@@ -1,0 +1,11 @@
+.message{
+   font-weight: bold;
+   font-size: 22px;
+   
+}
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:6rem;
+}
