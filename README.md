@@ -29,6 +29,12 @@ listners can join from different peers.
 `RTCIceCandidate`
   -- Represents a candidate Interactive Connectivity Establishment (ICE) server for establishing an RTCPeerConnection.
   
+## Tech Stack
+
+`React` `Node` `Express` `MongoDB` `WebRTC` `SocketIO` 
+
+  
+  
   
 
 
