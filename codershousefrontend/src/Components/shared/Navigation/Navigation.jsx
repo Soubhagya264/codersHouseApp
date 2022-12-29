@@ -25,19 +25,28 @@ const Navigation = () => {
     const logoText={
         marginLeft: "5px",
     }
+
+    if (user)
+    {
+    var img_url=user&& user.avtar;
+    img_url=img_url.split("//");
+    img_url[1]="//"
+    img_url=img_url.join("");
+    }
+
   return (
+    
     <nav className={`${styles.navbar} container`}>
         <Link style={brandStyle} to="/">
             <img src="/images/logo.png" alt="logo" width="40" height="40"/>
                 <span style={logoText}>
-                    CodersHouse
-                </span>
-            
+                    CodersHub
+                </span>    
         </Link>
         <div className={styles.navRight}>
           <h3>{user && user.name}</h3>
           <Link to="/">
-            {user && <img className={styles.avtar} src={user.avtar} width="40" height="40" alt="avtar"></img>}
+            {user && <img className={styles.avtar} src={img_url} width="40" height="40" alt="avtar"></img>}
           </Link>
           {isAuth && <button className={styles.logoutbtn} onClick={logoutUser}>logout</button>}
         </div>

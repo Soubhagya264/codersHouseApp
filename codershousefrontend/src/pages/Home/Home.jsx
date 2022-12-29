@@ -23,7 +23,7 @@ const Home = () => {
       <div class="row mb-5">
         <div class="col-md-12">
           <div className={styles.cardWrapper}>
-            <Card title="Welcome to Coder's House" icon="logo">
+            <Card title="Welcome to CodersHub" icon="logo">
               <p className={styles.text}>
                 The Coder's House is a user contribution driven approach and gives an excellent platform to coding enthusiasts and professionals to share and showcase their work .
               </p>

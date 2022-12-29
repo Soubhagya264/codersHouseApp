@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import { useWebRTC } from '../../hooks/useWebRTC'
 import { useParams, useNavigate } from 'react-router-dom';
 import { getRoom } from '../../http';
+import { useRef } from 'react';
 import styles from './Room.module.css'
 
   const Room = () => {
@@ -10,11 +11,10 @@ import styles from './Room.module.css'
   const { id: roomId } = useParams();
   const user = useSelector(state => state.auth.user);
   
- 
   const { clients, provideRef,handleMute } = useWebRTC(roomId, user);
 
   
-  console.log("clients ...."+  clients)
+
 
   
   const [room, setRoom] = useState(null);
@@ -22,7 +22,7 @@ import styles from './Room.module.css'
 
 
   useEffect(() => {
-    console.log("isMute ...."+ isMute);
+ 
     handleMute(isMute,user.id)
     
   },[isMute])

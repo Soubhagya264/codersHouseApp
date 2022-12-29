@@ -1,7 +1,7 @@
 FROM node:14
 WORKDIR /backend
 COPY package*.json ./
-RUN npm install
-COPY . ./
+RUN npm install --only=prod
+COPY . .
 EXPOSE 5000
-CMD [ "npm", "run", "dev" ]
+CMD [ "npm", "start"]
