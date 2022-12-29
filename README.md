@@ -31,7 +31,7 @@ listners can join from different peers.
   
 ## Tech Stack
 
-`React` `Node` `Express` `MongoDB` `WebRTC` `SocketIO` 
+`React` `Node` `Express` `MongoDB` `WebRTC` `SocketIO` `Docker`
 
   
   
